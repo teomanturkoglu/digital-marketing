@@ -96,7 +96,7 @@ const MainContent = () => {
 
     console.log(filteredProducts);
     
-    return <section className="xl:w-[55rem] lg:w[55rem] sm:w-[40rem] xs:w[20rem] p-5">
+    return <section className="w-full p-5">
         <div className="flex flex-col sm:flex-row justify-between items-center">
             <div className="relative mb-5 mt-5">
                 <button onClick={() => setDropdownOpen(!dropdownOpen)} className="border px-4 py-2 rounded-full flex items-cwenter">
