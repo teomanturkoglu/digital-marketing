@@ -72,7 +72,7 @@ return ( <div className="w-64 p-5 h-screen">
     <h1 className="text-2xl font-bold mb-10 mt-4">React Store</h1> 
 
     <section>
-        <input type="text" placeholder="Search Product" className="border 2 rounded px-2 sm:mb-0" value={searchQuery} onChange={e => setSearchQuery(e.target.value)} />
+        <input type="text" placeholder="Search Product" className="border 2 rounded px-2 sm:mb-4" value={searchQuery} onChange={e => setSearchQuery(e.target.value)} />
 
     <div className="flex justify-center items-center">
         <input type="text" className="border-2 mr-2 px-5 py-3 mb-3 w-full" placeholder="Min" value={minPrice ?? ''} onChange={handleMinPriceChange}/>
