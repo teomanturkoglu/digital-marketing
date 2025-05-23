@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
-import { Filter } from 'lucide-react'
+//import { Filter } from 'lucide-react'
 import { FilterProvider } from './components/FilterContext.tsx'
 
 
